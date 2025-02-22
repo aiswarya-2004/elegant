@@ -1,0 +1,129 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+.ProductTitle{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+}
+.sidebarcontainer{
+    height: 1070px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.ele{
+    height: 24px;
+    width: 105px;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+.dash1{
+    height: 50px;
+    width: 192px;
+    margin-top: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro1{
+    height: 50px;
+    width: 192px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.sdline1{
+    height: 1px;
+    width: 240px;
+    color: #E0E0E0;
+}
+.sdline2{
+    height: 1px;
+    width: 240px;
+    color: #E0E0E0;
+    margin-top: 300px;
+}
+.Dashboardcontent{
+    height: 1070px;
+    width: 1202px;
+    display: flex;
+    flex-direction: column;
+
+}
+.topboard{
+    height: 70px;
+    width: 1202px;
+    padding-left: 78px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.searchboard>input{
+    height: 38px;
+    width: 388px;
+   border-radius: 19px;
+   border: solid 0.6px #D5D5D5;
+   background-color: #F5F6FA;
+   padding-left: 10px;
+
+}
+.searchboard>img{
+    height: 15.01px;
+    width: 15.01px;
+}
+.admin{
+    height: 44px;
+    width: 169px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.admin>img{
+    height: 44px;
+    width: 44px;
+}
+.adminname{
+    display: flex;
+    flex-direction: column;
+}
+.moni{
+    font-size: 14px;
+    font-weight: 700;
+}
+.theadmin{
+    font-size: 12px;
+    font-weight: 600;
+}
+.adminlastimg>img{
+    height: 18px;
+    width: 18px;
+}
+.headdash1{
+    height: 44px;
+    width: 183px;
+    font-size: 32px;
+    color: #202224;
+    top: 100px;
+    left: 270px;
+}
+.pl>img{
+    height: 661px;
+    width: 1372px;
+}

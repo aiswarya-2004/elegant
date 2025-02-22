@@ -1,0 +1,101 @@
+.SignIn{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+
+}
+.input-field{
+    border-bottom:solid 0.2px #e4e1e1;
+}
+
+.inputspace{
+    height: 45px;
+    width: 410px;
+    margin: 5px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    gap: 40px;
+    border: transparent;
+}
+
+.signup{
+    color: green;
+}
+
+img{
+    height: 1000px;
+    width: 50vw;
+}
+.SignIn-form{
+
+    height: 50vh;
+    width: 410px;
+    margin-left: 150px;
+    margin-top: 270px;
+}
+.head-signin{
+    font-size: 40px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    color: #000;
+}
+
+.sign-In-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+.buttons{
+    padding-top: 20px;
+}
+.checking{
+    display: flex;
+    padding-top: 20px;
+}
+span.term{
+    font-size:medium;
+    padding-left: 10px;
+    padding-top: 5px;
+    color:rgb(109, 108, 108);
+}
+
+input.checkbox{
+    height: 30px;
+    width: 20px;
+}
+a{
+    color:black;
+    /* font: 1rem sans-serif; */
+}
+.forgot-password{
+    color:rgb(109, 108, 108);
+    padding-top: 20px;
+}
+.forgot-pass{
+    padding-left: 130px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #000;
+    font: 1rem sans-serif;
+}
+.overlay-text{
+    position: absolute;
+    top: 5%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: black; 
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica,serif;
+    padding-right: 50%;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
+}
+form{
+    padding-top: 10px;
+}
