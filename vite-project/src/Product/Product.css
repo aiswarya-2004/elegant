@@ -309,7 +309,7 @@ a{
 .product-end-line{
     background-color:white;
    display: flex;
-   margin-top: 40px;
+   margin-top: 1020px;
    justify-content: space-between;
    margin-left: 150px;
    margin-right: 150px;
@@ -332,7 +332,7 @@ a{
     color: rgba(20, 23, 24, 1);
 }
 .more-products{
-    height: 433px;
+    height: 400px;
     width: 1280px;
     margin-left: 150px;
     margin-top: 40px;
@@ -342,12 +342,14 @@ a{
 .shop-products-div{
     height: 433px;
     width: 262px;
+    /* margin-top: 200px; */
    
 }
 .shop-propertyimg{
     height: 349px;
     width: 262px;
     /* position: absolute; */
+     /* margin-top: 200px; */
 }
 .shop-propertyimg>img{
     height: 349px;

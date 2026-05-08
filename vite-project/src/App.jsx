@@ -37,7 +37,7 @@ function App() {
         <Route path='/ProductStock' element = {<ProductStock/>}></Route>
       </Routes>
       </BrowserRouter>
-      {/* <Shop/> */}
+
     </div>
   )
 }
